@@ -314,6 +314,7 @@ a {
 
 .hero {
   max-width: 1600px;
+  margin: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 
@@ -354,7 +355,13 @@ a {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
+
+.hero .button:hover,
+.hero .button:focus {
+}
+
 /* section features*/
 .visible-hidden {
   position: absolute;
@@ -635,6 +642,7 @@ a {
 
 .sub-title {
   padding: 20px 24px;
+  border-top: none;
   border: 1px solid #eeeeee;
 }
 
